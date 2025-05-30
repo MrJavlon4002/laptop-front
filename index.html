@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Store Deluxe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#2563EB', // Blue-600
+              'primary-dark': '#1D4ED8', // Blue-700
+              'primary-light': '#60A5FA', // Blue-400
+              secondary: '#10B981', // Emerald-500
+              'secondary-dark': '#059669', // Emerald-600
+              accent: '#F59E0B',    // Amber-500
+              'accent-dark': '#D97706', // Amber-600
+              neutral: '#F3F4F6', // Gray-100
+              'neutral-dark': '#4B5563', // Gray-600
+              light: '#FFFFFF', // White
+              dark: '#1F2937', // Gray-800
+            }
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.1",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react-hot-toast": "https://esm.sh/react-hot-toast@^2.5.2",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai"
+  }
+}
+</script>
+</head>
+<body class="bg-neutral text-neutral-dark">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html><link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>

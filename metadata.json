@@ -1,0 +1,5 @@
+{
+  "name": "Laptop Store Deluxe",
+  "description": "An e-commerce application for browsing and managing a deluxe selection of laptops. Users can register, log in, view products, and admins can manage the laptop inventory.",
+  "requestFramePermissions": []
+}
