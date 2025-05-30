@@ -7,7 +7,7 @@ import Spinner from './Spinner'; // Assuming you have a Spinner component
 // Ensure process.env.API_KEY is handled correctly.
 // In a real build process, this would be replaced. For local dev, you might need to set it up.
 // For this environment, we assume `process.env.API_KEY` is available.
-const API_KEY = "AIzaSyD6GOSfkcH0bnNK4xF0VZTwBK1abdTN9cg";
+const API_KEY = ""; // Replace with your actual API key or use environment variables in production
 
 const Chatbot: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
